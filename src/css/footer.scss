@@ -1,0 +1,32 @@
+$fontMainWeight: 400;
+
+ul{
+    list-style: none;
+}
+.footer {
+    padding: 58px 116px;
+    height: 417px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    background-color: #2C2C2C;
+}
+.footer-logo{
+    width: 145px;
+    height: 94px;
+    background-image: url("../images/LogoFooter.svg");
+    z-index: 1000;
+}
+.wrapper_footer_social_icon{
+    width: 193px;
+    height: 64px;
+}
+.footer_social_icon{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.footer_copyright {
+    text-align: center;
+
+}

@@ -1,0 +1,33 @@
+.ourProjects {
+ width: auto;
+ height: 76spx;
+}
+.ourProjects_title{
+    margin: 0px 0px 60px 0px;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 300;
+    color: #bdbdbd;
+}
+.ourProjects_gallery{
+   
+}
+.ourProjects_gallery_wrap_img{
+display: flex;
+justify-content: space-between;
+margin-bottom: 30px;
+}
+.ourProject_button{
+  
+}
+img :hover{
+    opacity: 10;
+}
+@media screen and (min-width: 768px) {
+
+
+  
+}
+@media screen and (min-width: 1024px) {
+
+}

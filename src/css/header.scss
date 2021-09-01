@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');  
+#header {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 2px;
+    font-family: 'Roboto';
+}
+.logo{
+    width: 70px;
+    height: 44px;
+    background-image: url(../images/LogoHead.svg);
+}
+.navigation{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-right: 128px;
+}
+.navigation_link{
+word-spacing: 20px;
+    
+}
+.navigation li:hover{
+    text-decoration: overline underline;
+    text-underline-offset: 0.3em;  
+    
+    color: #333333;
+
+}
+
+@media screen and (max-width:768px) {
+
+}
