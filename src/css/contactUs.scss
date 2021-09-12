@@ -1,5 +1,7 @@
 $main-background-color: #F3F3F3;
 $color: #8D8D8D;
+$asterisk-color: #e32;
+
 @font-face {
     font-family: 'TTHoves-medium';
     src: url('../fonts/TTHoves-Light.ttf');
@@ -53,7 +55,7 @@ input, textarea{
 
  #asterisk_number:after {
     content: "*";
-    color: #e32;
+    color: $asterisk-color;
     position: absolute;
     font-size: 17px;
     left: 130px;
@@ -61,7 +63,7 @@ input, textarea{
   }
   #asterisk_email:after{
     content: "*";
-    color: #e32;
+    color: $asterisk-color;
     position: absolute;
     font-size: 17px;
     top: 123px;
@@ -69,7 +71,7 @@ input, textarea{
   }
   #asterisk_textarea:after{
     content: "*";
-    color: #e32;
+    color: $asterisk-color;
     position: absolute;
     font-size: 17px;
     top: 235px;
