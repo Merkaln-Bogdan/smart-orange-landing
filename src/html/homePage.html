@@ -3,41 +3,40 @@
     <div class="home_project_title">
       <h1><span class="home_project_word">PROJECT</span>HOME</h1>
       <div class="home_project_arrow_wrapper">
-        <div class="home_project_arrow"><img src="../images/arrow-2-left-long.svg" alt="arrow-2-left-long">
+        <div id="left" class="home_project_arrow" tabindex="1"><img src="../images/svg/arrow-2-left-long.svg" alt="arrow-2-left-long">
         </div>
-        <div class="home_project_arrow"><img src="../images/arrow-2-right-long.svg" alt="arrow-2-right-long"></div>
+        <div id="right" class="home_project_arrow" tabindex="1"><img src="../images/svg/arrow-2-right-long.svg" alt="arrow-2-right-long"></div>
       </div>
-      <div class="pagination">
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#">3</a>
-        <a href="#">4</a>
+      <div id="home_project_pagination">
       </div>
     </div>
     <div class="image-wrapper">
-      <img src="../images/png/main-img-page.png" alt="building" width="770" height="830" class="image"/><button class="image_button_to_see">взглянуть  &#8594</button>
+    <a><img src="../images/png/main-img-page.png" alt="building" width="770" height="830" class="image"/></a><button class="image_button_to_see">взглянуть  &#10230</button>
     </div>
   </div>
   <div class="contain">
     <div class="contain_wrapper_images">
-      <img src="../images/png/img-build-03.png" alt="building" width="270" height="265" />
-      <img src="../images//png/img-build-04.png" alt="building" width="240" height="345" />
-      <img src="../images//png/img-build-05.png" alt="building" width="270" height="140" />
+      <div class="contain_img_build_front">
+        
+      <img src="../images/png/img-build-03.png" alt="building" width="270" height="265"/>
+    <img src="../images//png/img-build-05.png" alt="building" width="270" height="140"/>
     </div>
-    <div class="contain_wrapper_text">
+  <img src="../images//png/img-build-04.png" alt="building" width="240" height="345" class="contain_img_build_angle"/>
+    </div>
+  <div class="contain_wrapper_text">
       <span class="contain_task_title">О компании</span>
-      <p class="contain_text">
+      <article class="contain_text">
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
         since the 1500s, when an unknown printer took a galley of type and
         scrambled it to make a type specimen book. It has survived not only five
         centuries, but also the leap into electronic typesetting, remaining
         essentially unchanged.
-      </p>
-      <button class="contain_button_to_read">читать &#8594</button>
+      </article>
+      <button class="contain_button_to_read">читать &#10230</button>
     </div>
   </div>
-  <div class="main_task_wrapper">
+  <main class="main_task_wrapper">
     <p class="contain_task_title">Основные задачи</p>
     <div class="main_task">
       <div class="main_task_number"><img src="../images/1.png"></div>
@@ -45,11 +44,10 @@
       Создание комфортных условий и повышение качества обслуживания клиентов
       </p>
       <div class="main_task_number"><img src="../images/2.png" alt="number two"></div>
-      <p class="main_task_text2">
-      
+      <p class="main_task_text2"> 
       Постоянно совершенствовать качество предоставляемых услуг путем обучения
       персонала, закупки нового оборудования и усиленной рекламы на рынке
       </p>
     </div>
-  </div>
+  </main>
 </div>

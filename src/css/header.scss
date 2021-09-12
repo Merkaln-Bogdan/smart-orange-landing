@@ -9,7 +9,7 @@
 .logo{
     width: 70px;
     height: 44px;
-    background-image: url(../images/LogoHead.svg);
+    background-image: url(../images/svg/LogoHead.svg);
 }
 .navigation{
     width: 650px;
@@ -20,16 +20,19 @@
     margin-right: 128px;
 }
 .navigation_link{
-word-spacing: 20px;
+    width: auto;
+    height: 20px;
+    box-sizing: border-box;
+padding: 3px;
     
 }
 .navigation li:hover{
-    text-decoration: overline underline;
-    text-underline-offset: 0.3em;  
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
     
-    color: #333333;
 
 }
+
 
 @media screen and (max-width:768px) {
 
