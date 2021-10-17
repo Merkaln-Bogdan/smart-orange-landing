@@ -1,34 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 #header {
-  padding: 30px;
+  padding: 33px;
   display: flex;
-  justify-content: space-between;
   letter-spacing: 2px;
   font-family: 'Roboto';
 }
 .logo {
+  margin-top: 15px;
   width: 70px;
   height: 44px;
   background-image: url(../images/svg/LogoHead.svg);
 }
 .navigation {
-  width: 650px;
-  display: flex;
-  justify-content: space-between;
+  min-width: 165px;
   font-size: 12px;
   text-transform: uppercase;
-  margin-right: 128px;
+
 }
 .navigation_link {
   width: auto;
   height: 20px;
   box-sizing: border-box;
   padding: 3px;
+  margin-bottom: 10px;
 }
 .navigation li:hover {
   border-bottom: 1px solid black;
   border-top: 1px solid black;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
+  #header {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+
+  .navigation {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 128px;
+  }
+  .navigation_link {
+    width: auto;
+    height: 20px;
+    box-sizing: border-box;
+    padding: 3px;
+  }
+  .navigation li:hover {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+  }
 }

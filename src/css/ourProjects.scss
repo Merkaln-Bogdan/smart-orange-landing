@@ -4,13 +4,14 @@
   font-style: normal;
   font-weight: normal;
 }
+@media screen and (min-width: 320px) {
 .ourProjects {
   width: auto;
   margin-top: 120px;
 }
 .ourProjects_title {
-  margin: 0px 0px 60px 0px;
-  font-size: 64px;
+  margin: 0px 0px 30px 0px;
+  font-size: 35px;
   line-height: 64px;
   font-weight: 300;
   color: #bdbdbd;
@@ -26,6 +27,8 @@
   position: relative;
 }
 .ourProject_image {
+  min-width: 310px;
+  height: 180px;
   display: block;
   position: relative;
   max-width: 100%;
@@ -44,14 +47,14 @@
 .ourProject_overlay_title_wrap {
   display: flex;
   flex-direction: column;
-  max-width: 67%;
+  max-width: 77%;
   height: 60%;
   margin: auto;
 }
 .ourProject_overlay_title {
   font-family: 'TTHoves-bold';
   text-transform: uppercase;
-  font-size: 60px;
+  font-size: 35px;
   font-weight: 900;
   color: rgb(255, 255, 255);
  
@@ -67,7 +70,71 @@
 .ourProject_button{
   margin-left: auto;
 }
+}
 @media screen and (min-width: 768px) {
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 1024px) {
+  .ourProjects {
+    width: auto;
+    margin-top: 120px;
+  }
+  .ourProjects_title {
+    margin: 0px 0px 60px 0px;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 300;
+    color: #bdbdbd;
+  }
+  
+  .ourProjects_gallery {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .ourProjects_img_wrap {
+    position: relative;
+  }
+  .ourProject_image {
+    height: 255px;
+    display: block;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .overlay {
+    display: flex;
+    width: 100%;
+    height: 89%;
+    background-color: rgba(16, 17, 15, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  .ourProject_overlay_title_wrap {
+    display: flex;
+    flex-direction: column;
+    max-width: 77%;
+    height: 60%;
+    margin: auto;
+  }
+  .ourProject_overlay_title {
+    font-family: 'TTHoves-bold';
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+   
+  }
+  
+  .ourProjects_img_wrap:hover .overlay {
+    z-index: 100;
+  }
+  .ourProject_overlay_title_button{
+    letter-spacing: 2px;
+  }
+  
+  .ourProject_button{
+    margin-left: auto;
+  }
 }
