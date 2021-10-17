@@ -11,7 +11,6 @@ $asterisk-color: #e32;
   @media screen and (min-width: 320px) {
     .wrapper_contact{
         width: auto;
-        // height: 603px;
         margin-bottom: 120px;
     }
     .contact_title{
@@ -21,17 +20,12 @@ $asterisk-color: #e32;
         font-weight: 300;
         color: #bdbdbd;
     }
-    .contact{
-        // display: flex;
-    }
+ 
     .contact_form{
         position: relative;
         width: 280px;
         height: 370px;
-        // margin-right: 30px;
-        // flex-direction: column;
-        // justify-content: space-between;
-        
+    
     }
     input{
         width: 100%;

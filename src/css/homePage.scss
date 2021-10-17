@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: 'TTHoves-light';
   src: url('../fonts/TTHoves-Light.ttf');
@@ -12,8 +11,7 @@
   font-weight: bold;
 }
 @media screen and (min-width: 320px) {
-  
-  .home_project_wrapper { 
+  .home_project_wrapper {
     margin-bottom: 120px;
   }
   .home_project_title {
@@ -63,7 +61,7 @@
     text-decoration: none;
     color: #bdbdbd;
   }
-  
+
   .home_project_pagination_page {
     color: #bdbdbd;
     font-size: 24px;
@@ -81,7 +79,7 @@
   :last-child::after {
     background-image: none;
   }
-  
+
   // First main image style
   .image-wrapper {
     margin-top: 25px;
@@ -91,7 +89,6 @@
   }
   .image {
     position: absolute;
-
   }
   .image_button_to_see {
     position: absolute;
@@ -101,28 +98,28 @@
     background-color: rgb(255, 255, 255);
     border: none;
   }
-  
+
   .contain {
     width: auto;
     background-color: #fbfbfb;
   }
- 
+
   .contain_img_build_front {
     display: block;
-   margin: 0 auto;
- 
+    margin: 0 auto;
+    margin-bottom: 20px;
   }
   .contain_img_build_angle {
     margin: 30px;
   }
- 
+
   .contain_task_title {
     font-size: 50px;
     line-height: 64px;
     font-weight: 300;
     color: #bdbdbd;
   }
-  
+
   .contain_text {
     font-weight: 300;
     line-height: 1.7;
@@ -132,8 +129,9 @@
     background-color: rgb(255, 255, 255);
     border: none;
   }
-  
-  .main_task_wrapper_first, .main_task_wrapper_second {
+
+  .main_task_wrapper_first,
+  .main_task_wrapper_second {
     display: flex;
   }
   .main_task_number {
@@ -153,83 +151,76 @@
     line-height: 25px;
     margin-right: 10px;
   }
-
-
-
 }
 
 @media screen and (min-width: 768px) {
 }
 
-
 @media screen and (min-width: 1024px) {
+  .home_project_wrapper {
+    display: flex;
+  }
+  .home_project_title {
+    padding-top: 270px;
+  }
 
-.home_project_wrapper {
-  display: flex;
-}
-.home_project_title {
-  padding-top: 270px;
-}
+  // Desktop image style
+  .image-wrapper {
+    width: 770px;
+    height: 830px;
+  }
+  .image {
+    position: absolute;
+    width: 770px;
+    height: 830px;
+  }
 
-// Desktop image style
-.image-wrapper {
-  width: 770px;
-  height: 830px;
- 
-}
-.image {
-  position: absolute;
-  width: 770px;
-  height: 830px;
-}
+  .contain {
+    height: 435px;
+    display: flex;
+    padding: 30px;
+  }
+  .contain_wrapper_images {
+    display: flex;
+  }
+  .contain_img_build {
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 
-.contain {
-  display: flex;
-}
-.contain_wrapper_images {
-  display: flex;
-  justify-content: space-around;
-}
-.contain_img_build{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
- 
-}
+  .contain_task_title {
+    margin: 0px 0px 60px 0px;
+  }
 
-.contain_task_title {
-  margin: 0px 0px 60px 0px;
-}
-
-
-.main_task_wrapper {
-  margin-top: 150px;
-  height: 268px;
-}
-.main_task {
-  display: flex;
-  height: 144px;
-}
-.main_task_number {
-  margin-top: -40px; 
-  height: 140px;
-  color: #f2f2f2;
-  font-size: 200px;
-}
-.main_task_text, .main_task_text2{
-  height: 144px;
-  font-size: 22px;
-  line-height: 36px;
-}
-.main_task_text {
-  margin: 0;
-  width: 280px;
- 
-}
-.main_task_text2 {
-  margin: 0;
-  margin-left: 30px;
-  width: 435px;
-}
-
+  .main_task_wrapper {
+    margin-top: 150px;
+    height: 268px;
+  }
+  .main_task {
+    display: flex;
+    height: 144px;
+  }
+  .main_task_number {
+    margin-top: -40px;
+    height: 140px;
+    color: #f2f2f2;
+    font-size: 200px;
+  }
+  .main_task_text,
+  .main_task_text2 {
+    height: 144px;
+    font-size: 22px;
+    line-height: 36px;
+  }
+  .main_task_text {
+    margin: 0;
+    width: 280px;
+  }
+  .main_task_text2 {
+    margin: 0;
+    margin-left: 30px;
+    width: 435px;
+  }
 }
